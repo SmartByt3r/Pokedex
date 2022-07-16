@@ -1,0 +1,45 @@
+.cards-outlet {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+    max-width: min(100vw, 1366px);
+    margin: 0rem auto;
+    padding: 0.5rem 1rem;
+}
+
+.cards-enter {
+    opacity: 0;
+}
+
+.cards-enter-active {
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.cards-exit {
+    opacity: 1;
+}
+
+.cards-exit-active {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.search-form {
+    margin: 0rem auto;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    max-width: min(100vw, 1366px);
+    gap: 0.5rem;
+}
+
+.search-form input {
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .search-form {
+        flex-direction: column;
+    }
+}

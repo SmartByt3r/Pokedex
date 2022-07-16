@@ -1,0 +1,30 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: min(100vw, 1366px);
+    margin: 0rem auto;
+    padding: 0.5rem 1rem;
+}
+
+.navigation h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 35px;
+    height: 35px;
+    margin-right: 0.5rem;
+}
