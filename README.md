@@ -1,7 +1,7 @@
-
 # Pokedex
 
 A simple pokedex App made with React, shows all the pokemons provided by https://pokeapi.co/
+
 ## Run Locally
 
 Clone the project
@@ -13,7 +13,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd pokedex
+  cd Pokedex
 ```
 
 Install dependencies
@@ -28,7 +28,6 @@ Start the server
   npm run start
 ```
 
-
 ## Running Tests
 
 To run tests, run the following command
@@ -36,4 +35,3 @@ To run tests, run the following command
 ```bash
   npm run test
 ```
-
